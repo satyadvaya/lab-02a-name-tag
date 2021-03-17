@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body, html{
     height: 100%;
     width: 100%;
@@ -7,6 +11,55 @@ body, html{
     justify-content: center;
 }
 
-* {
-    box-sizing: border-box;
+.paper {
+    height: 125px;
+    width: 200px;
+    margin: 5px;
+    padding: 2.5px;
+    background: gray;
+}
+
+.main-container {
+    width: 195px;
+    grid-template-rows: 40px 20px 45px 15px;
+    display: grid;
+    /* flex-direction: column; */
+}
+
+.hello {
+    font-size: 24pt;
+    font-weight: bold;
+    color: white;
+    background: red;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-name-is {
+    font-size: 14pt;
+    color: white;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-container {
+    font-size: 12pt;
+    font-weight: bold;
+    font-style: italic;
+    font-family: universe;
+    color: black;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
+    background: red;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
 }
